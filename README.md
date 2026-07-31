@@ -1,52 +1,52 @@
-# 👑 Lexica — Royal Word Puzzle Game
+# Lexica — Royal Word Puzzle Game
 
-**Lexica** is a next-generation, browser-based word puzzle game built with React 19, TypeScript, Framer Motion, and Tailwind CSS. Designed with a royal luxury aesthetic, fluid 60 FPS 3D animations, 10 customizable contrast-tuned themes, and rich player statistics.
+Lexica is a modern, high-performance browser-based word puzzle game built with React 19, TypeScript, Framer Motion, and Tailwind CSS. It features a luxury visual aesthetic, 60 FPS 3D tile animations, 10 contrast-tuned color themes, and local analytics tracking.
 
-Created so everyone can enjoy endless word puzzles — **100% free, completely ad-free, with zero daily wait times or paywalls.**
+Created to provide an unrestricted word puzzle experience — completely free, ad-free, with no daily wait times or paywalls.
 
 ---
 
-## 🌟 Key Features
+## Features
 
-- **5 Distinct Game Modes**:
-  - 📅 **Daily Challenge**: Date-seeded puzzle shared deterministically across all players globally.
-  - ♾️ **Unlimited Mode**: Infinite random word puzzles with instant replay.
-  - 🎯 **Practice Mode**: Unlimited casual practice games with hint support.
-  - ⏱️ **Timed Challenge**: Countdown timer with visual warning thresholds and progress bars.
-  - ⚙️ **Custom Game**: Customizable word length (4 to 6 letters) and timer duration.
+- **Game Modes**:
+  - **Daily Challenge**: Date-seeded puzzle shared deterministically across all players globally.
+  - **Unlimited Mode**: Infinite random word puzzles with instant replay.
+  - **Practice Mode**: Casual practice games with hint capabilities.
+  - **Timed Challenge**: Real-time countdown timer with visual alert thresholds.
+  - **Custom Game**: Configurable word length (4 to 6 letters) and custom timer durations.
 
 - **Strict Dictionary Validation**:
-  - Accepts only legitimate English words from a comprehensive dictionary.
-  - Non-words or invalid character sequences are immediately rejected with clean toast notifications.
+  - Validates input against an extensive English word list.
+  - Rejects non-words or invalid character sequences with immediate feedback notifications.
 
-- **Royal Visual Identity & 10 Themes**:
-  - Metallic gold accents, deep midnight royal navy, emerald green success states, and amber gold present states.
-  - 10 contrast-compliant themes: *Royal Dark, Royal Light, Midnight Gold, Emerald Forest, Sapphire Ocean, Imperial Sunset, Neon Cyber, Cyber Gold, Pure Ivory, Soft Rose*.
+- **Visual Design & Themes**:
+  - Metallic gold accents, royal navy backgrounds, emerald success states, and amber present states.
+  - 10 contrast-compliant color themes: *Royal Dark, Royal Light, Midnight Gold, Emerald Forest, Sapphire Ocean, Imperial Sunset, Neon Cyber, Cyber Gold, Pure Ivory, Soft Rose*.
 
-- **13 Unlockable Achievements**:
-  - Track your progress with badges (*First Steps, Wordsmith, Century Club, On Fire, Speed Runner, Legend, Timed Champion*, etc.).
+- **Achievements System**:
+  - 13 unlockable achievement badges tracking game milestones, speed records, and winning streaks.
 
-- **Rich Player Analytics**:
-  - LocalStorage-backed performance tracking: Guess distribution bar chart, win accuracy %, streak counters, average guesses, and fastest win duration.
+- **Player Analytics**:
+  - LocalStorage-persisted analytics including guess distribution charts, win accuracy percentages, streak counters, average guesses, and fastest completion times.
 
-- **Full Keyboard & Accessibility Support**:
-  - Physical keyboard listeners + responsive touch on-screen keyboard (supporting QWERTY, Dvorak, and AZERTY layouts).
-  - High contrast mode, reduced motion support, and dynamic font scale options.
+- **Keyboard & Accessibility**:
+  - Physical hardware keyboard support plus responsive touch keyboard supporting QWERTY, Dvorak, and AZERTY layouts.
+  - High contrast options, reduced motion preferences, and font scaling settings.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **State Management**: [Zustand](https://github.com/pmndrs/zustand) + LocalStorage Persistence
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Styling**: Vanilla CSS + Tailwind CSS + Google Fonts (*Outfit & Space Grotesk*)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Animation Engine**: [Framer Motion](https://www.framer.com/motion/)
+- **Iconography**: [Lucide React](https://lucide.dev/)
+- **Typography & Styling**: CSS Variables, Tailwind CSS, Google Fonts (*Outfit* and *Space Grotesk*)
 
 ---
 
-## 🛠️ Local Installation & Setup
+## Installation and Setup
 
 1. **Clone the repository**:
    ```bash
@@ -71,6 +71,6 @@ Created so everyone can enjoy endless word puzzles — **100% free, completely a
 
 ---
 
-## 👤 Author & Maintainer
+## Author
 
-Created with ❤️ by **[devil-net](https://github.com/devil-net)**.
+Created by **[devil-net](https://github.com/devil-net)**.
