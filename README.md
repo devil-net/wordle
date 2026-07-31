@@ -74,9 +74,3 @@ Created so everyone can enjoy endless word puzzles — **100% free, completely a
 ## 👤 Author & Maintainer
 
 Created with ❤️ by **[devil-net](https://github.com/devil-net)**.
-
----
-
-## 📄 License
-
-MIT License — feel free to use and customize!
