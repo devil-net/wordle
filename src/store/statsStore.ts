@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { GameStats, GameMode } from '../types';
+import { useAchievementStore } from './achievementStore';
 
 interface StatsStore extends GameStats {
   recordGame: (won: boolean, guesses: number, time: number, mode: GameMode) => void;
@@ -63,7 +64,7 @@ export const useStatsStore = create<StatsStore>()(
           newGuessDistribution[guesses - 1] += 1;
         }
 
-        set({
+        const newStats: GameStats = {
           gamesPlayed: newGamesPlayed,
           wins: newWins,
           losses: newLosses,
@@ -79,7 +80,12 @@ export const useStatsStore = create<StatsStore>()(
           timedWins: newTimedWins,
           unlimitedWins: newUnlimitedWins,
           guessDistribution: newGuessDistribution,
-        });
+        };
+
+        set(newStats);
+
+        // Check and trigger achievement unlocks
+        useAchievementStore.getState().checkAchievements(newStats, { won, guesses, time });
       },
       resetStats: () => set({ ...defaultStats }),
     }),
